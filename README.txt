@@ -1,13 +1,12 @@
 
-= Safaricat : O'reilly Safari Scraper for offline reading =
+= Safaricat : Safari Books Formatter for offline reading =
 
-Safaricat is a screen scraper for O'Reilly Safari Books Online.
+Safaricat is a HTML formatter Safari Books Online.
 Safaricat can format and combine multiple book pages on Safari onlin reader 
 for "offline" reading, as with ebook readers.
 
 Note that Safaricat assumes that you've subscribed the account and 
 provide NO way to access it freely. You can just suscriibe Safari Library.
-at the site: http://www.safaribooksonline.com/ .
 
 == Prerequirement ==
 
@@ -16,10 +15,9 @@ at the site: http://www.safaribooksonline.com/ .
 
 == Usage ==
 
-Download pages (manually!) :
+Download pages (manually; the service explicitly prohibit spidering) :
 
- * Open a section page with Safari Online reader on your browser. 
-   For example, open http://my.safaribooksonline.com/9780137126347/part01 .
+ * Open a section page with your browser. 
 
  * Save the page and associated file to your disk drive
    With Firefox, you can use "Web Page, complee" option for this purpose.
@@ -38,5 +36,5 @@ Combine Downloaded Pages:
 
 == TODO ==
 
- * automatic download with my account
  * customizable style
+ * create TOC
